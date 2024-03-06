@@ -1,0 +1,52 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App h1 {
+    color: white;
+    text-align: center;
+}
+
+.App .container {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.App .container form input {
+    font-size: 1.1rem;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.board {
+    width: 200px;
+    height: 500px;
+    margin: .5rem;
+    background-color: #cbd5e1;
+}
+
+.board h2 {
+    text-align: center;
+    border-bottom: 4px double;
+    color: black;
+}
+
+.board .item {
+    border: 1px solid gray;
+    margin: .5rem;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+
+.board .item .times {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
